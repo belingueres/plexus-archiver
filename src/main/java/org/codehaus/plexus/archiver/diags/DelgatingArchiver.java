@@ -350,4 +350,11 @@ public class DelgatingArchiver implements Archiver
     {
         target.setFilenameComparator( filenameComparator );
     }
+
+    @Override
+    public void configureReproducible( int sourceDateEpoch )
+    {
+        target.configureReproducible( sourceDateEpoch );
+    }
+
 }

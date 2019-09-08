@@ -424,4 +424,10 @@ public class TrackingArchiver
     {
         this.filenameComparator = filenameComparator;
     }
+
+    @Override
+    public void configureReproducible( int sourceDateEpoch )
+    {
+
+    }
 }
